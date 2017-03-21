@@ -13,7 +13,7 @@ class Carro
     private $motor;
     private $combustivel = 0;
 
-    private $versao;
+    protected $versao;
     private $opcionais = array('ar', 'rodas', 'abs');
     
     /**
